@@ -1,0 +1,4 @@
+def main(private field dateOfBirth, field dateNow) -> bool:
+    field years = 18
+    field numberOfSeconds = years * 365 * 24 * 60 * 60
+	return dateNow - dateOfBirth > numberOfSeconds
